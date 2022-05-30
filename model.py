@@ -3,8 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.models as models
 
-# from torchvision.models.resnet import resnet50
-
 class MoCov2(nn.Module):
     def __init__(self, arch='resnet50', feature_dim=128, moco_momentum=0.999, mlp=True):
         super(MoCo, self).__init__()
