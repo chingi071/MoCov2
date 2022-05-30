@@ -1,4 +1,4 @@
-# MoCov2_Pytorch
+# MoCov2
 
 ## Dependency Setup
 
