@@ -129,10 +129,8 @@ if __name__ == '__main__':
         
         train_loss_value, train_acc1_value, train_acc5_value = train_epoch(epoch, moco_model, train_loader, optimizer, criterion)
         train_loss.append(train_loss_value)
-        
-		train_acc1.append(train_acc1_value)
-		
-		train_acc5.append(train_acc5_value)
+        train_acc1.append(train_acc1_value)
+        train_acc5.append(train_acc5_value)
         
         print("Epoch {:d}, train_loss_value: {:.4f}, train_acc1_value: {:.4f}, train_acc5_value: {:.4f}".format(
               epoch, train_loss_value, train_acc1_value, train_acc5_value))
