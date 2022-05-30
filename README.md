@@ -20,7 +20,7 @@ pip install pandas matplotlib gdown
 ## Data preprocessing & pre-trained weight download
 
 ```
-python gen_data_model.py
+python get_data_model.py
 ```
 
 ## Unsupervised Training

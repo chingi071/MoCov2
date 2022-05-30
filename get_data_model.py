@@ -3,7 +3,6 @@ import requests
 import tarfile
 import gdown
 
-
 data_file = 'data1'
 model_file ='weights'
 
