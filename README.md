@@ -14,7 +14,7 @@ conda activate ssl
 ```
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch -y
 git clone https://github.com/chingi071/MoCov2_Pytorch
-pip install pandas matplotlib gdown
+pip install pandas matplotlib gdown tqdm
 ```
 
 ## Data preprocessing & pre-trained weight download
