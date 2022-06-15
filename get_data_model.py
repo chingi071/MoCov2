@@ -3,7 +3,7 @@ import requests
 import tarfile
 import gdown
 
-data_file = 'data1'
+data_file = 'data'
 model_file ='weights'
 
 if not os.path.exists(data_file):
