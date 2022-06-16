@@ -5,7 +5,7 @@ import torchvision.models as models
 
 class MoCov2(nn.Module):
     def __init__(self, arch='resnet50', feature_dim=128, moco_momentum=0.999, mlp=True):
-        super(MoCo, self).__init__()
+        super(MoCov2, self).__init__()
         
         self.m = moco_momentum                
         
